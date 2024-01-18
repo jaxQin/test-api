@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "blog-server",
+    "builds": [
+        {
+            "src": "http-server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "http-server.js"
+        }
+    ]
+}
