@@ -12,5 +12,8 @@
             "src": "/(.*)",
             "dest": "http-server.js"
         }
-    ]
+    ],
+    "scripts": {
+        "build": "npm i fs-extra"
+      }
 }
