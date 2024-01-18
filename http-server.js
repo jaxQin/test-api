@@ -41,7 +41,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 监听端口
-const port = 3000;
+const port = 3008;
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
