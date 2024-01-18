@@ -2,12 +2,7 @@
     "version": 2,
     "name": "blog-server",
     "installCommand":"npm i fs-extra",
-    "builds": [
-        {
-            "src": "http-server.js",
-            "use": "@vercel/node"
-        }
-    ],
+    "buildCommand":"node http-server.js"
     "routes": [
         {
             "src": "/(.*)",
