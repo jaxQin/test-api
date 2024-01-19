@@ -1,0 +1,12 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server for a blog",
+  "main": "http1.js",
+  "scripts": {
+    "start": "node http1.js"
+  },
+  "dependencies": {
+        "fs-extra": "^7.0.1"
+  }
+}
