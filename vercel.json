@@ -2,11 +2,11 @@
     "version": 2,
     "name": "blog-server",
     "installCommand":"npm i fs-extra",
-    "buildCommand":"node http-server.js"
+    "buildCommand":"node http1.js"
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "http-server.js"
+            "dest": "http1.js"
         }
     ]
 }
