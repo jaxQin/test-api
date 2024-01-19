@@ -2,6 +2,13 @@
     "version": 2,
     "name": "blog-server",
      "builds": [
+          {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    },
         {
             "src": "http1.js",
             "use": "@vercel/node"
