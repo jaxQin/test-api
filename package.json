@@ -4,9 +4,10 @@
   "description": "A simple Node.js server for a blog",
   "main": "http1.js",
   "scripts": {
-    "start": "node http1.js"
+    "start": "node http1.js",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
-        "fs-extra": "^7.0.1"
+    "your-npm-package": "^1.0.0"
   }
 }
