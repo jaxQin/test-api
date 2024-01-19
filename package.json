@@ -2,7 +2,7 @@
   "name": "vercel-koa2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "http-server1.js",
   "scripts": {
     "start": "node http-server.js",
     "dev": "nodemon index.js"
