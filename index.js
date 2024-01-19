@@ -2,7 +2,7 @@ const Koa = require('koa');
 const app = new Koa();
 
 app.use(async ctx => {
-    const urlObj = new URL(ctx.req.url, `http://${req.headers.host}`);
+    const urlObj = new URL(ctx.req.url, `http://${ctx.req.headers.host}`);
     const params = urlObj.searchParams;
     console.log('%c 🌮 params: ', 'font-size:20px;background-color: #42b983;color:#fff;', params);
     ctx.body = 'Hello Vercel, Hi Koa2';
