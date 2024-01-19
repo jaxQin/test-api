@@ -1,8 +1,6 @@
 {
     "version": 2,
     "name": "blog-server",
-    "installCommand":"npm i fs-extra",
-    "buildCommand":"node http1.js"
      "builds": [
         {
             "src": "http1.js",
