@@ -8,6 +8,6 @@
     "vercel-build": "npm run build"
   },
   "dependencies": {
-    "your-npm-package": "^1.0.0"
+    "fs-extra": "^7.0.1"
   }
 }
